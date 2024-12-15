@@ -1,0 +1,318 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+/* header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+} */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation container */
+header {
+    background-color: #0d0d0d; /* Dark background */
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation links */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff9900; /* Orange hover effect */
+}
+
+/* Deliver To and location section */
+.nav-address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.add-icon i {
+    font-size: 18px;
+    color: #ff9900;
+}
+
+.add-icon p {
+    color: #ff9900;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.second-icon i {
+    color: white;
+}
+
+.search button {
+    background-color: #ff9900;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Cart and Returns/Orders section */
+.cart, .third {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.cart p, .third p {
+    margin: 0;
+}
+
+.cart .icon {
+    display: flex;
+    align-items: center;
+}
+
+.cart .tenth i {
+    color: #ff9900;
+    font-size: 20px;
+}
+
+.cart:hover, .third:hover {
+    cursor: pointer;
+    color: #ff9900;
+}
+
+.third .fourth p {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-address {
+        margin-top: 10px;
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Header Styles */
+.head {
+    background-color: pink;
+    color: red;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 20px;
+}
+
+.head h1 {
+    font-size: 5em;
+}
+
+.head p {
+    font-size: 1.2em;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Team Card Styles */
+.team-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.member-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #777;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Team Size Section */
+.team-size {
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.team-count {
+    font-size: 1.5em;
+}
+
+.team-number {
+    font-size: 2.5em;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 1em;
+}

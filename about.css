@@ -1,0 +1,274 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation container */
+header {
+    background-color: #0d0d0d; /* Dark background */
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation links */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff9900; /* Orange hover effect */
+}
+
+/* Deliver To and location section */
+.nav-address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.add-icon i {
+    font-size: 18px;
+    color: #ff9900;
+}
+
+.add-icon p {
+    color: #ff9900;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.second-icon i {
+    color: white;
+}
+
+.search button {
+    background-color: #ff9900;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Cart and Returns/Orders section */
+.cart, .third {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.cart p, .third p {
+    margin: 0;
+}
+
+.cart .icon {
+    display: flex;
+    align-items: center;
+}
+
+.cart .tenth i {
+    color: #ff9900;
+    font-size: 20px;
+}
+
+.cart:hover, .third:hover {
+    cursor: pointer;
+    color: #ff9900;
+}
+
+.third .fourth p {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-address {
+        margin-top: 10px;
+    }
+}
+
+/* Navigation Bar */
+/* header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+} */
+
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 30px;
+    max-width: 55%;
+}
+
+.about-text h1 {
+    font-size: 36px;
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    
+}
+
+
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    max-width: 40%;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-image {
+        max-width: 100%;
+    }
+}
+
+
+.footer-bottom{
+    text-align: center;
+    padding: 10px 0;
+    background-color:black;
+    font-size: 1rem;
+}
+ .footer-bottom p{
+    color: white;
+ }
+

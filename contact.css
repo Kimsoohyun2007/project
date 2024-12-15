@@ -1,0 +1,413 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+  }
+  /* header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+} */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header and navigation container */
+header {
+  background-color: #0d0d0d; /* Dark background */
+  color: white;
+  padding: 15px 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+/* Navigation links */
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: #ff9900; /* Orange hover effect */
+}
+
+/* Deliver To and location section */
+.nav-address {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.add-icon i {
+  font-size: 18px;
+  color: #ff9900;
+}
+
+.add-icon p {
+  color: #ff9900;
+}
+
+/* Search Bar */
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #1a1a1a;
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.search input {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.second-icon i {
+  color: white;
+}
+
+.search button {
+  background-color: #ff9900;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+  background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Cart and Returns/Orders section */
+.cart, .third {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.cart p, .third p {
+  margin: 0;
+}
+
+.cart .icon {
+  display: flex;
+  align-items: center;
+}
+
+.cart .tenth i {
+  color: #ff9900;
+  font-size: 20px;
+}
+
+.cart:hover, .third:hover {
+  cursor: pointer;
+  color: #ff9900;
+}
+
+.third .fourth p {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .search {
+      width: 100%;
+      margin-top: 10px;
+  }
+
+  .nav-address {
+      margin-top: 10px;
+  }
+}
+
+  .contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: red; /* Soft Green */
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #777;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Contact Form Styles */
+  .contact-form {
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Contact Info Styles */
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .contact-item {
+    margin: 0 20px;
+    text-align: left;
+  }
+  
+  .contact-item i {
+    font-size: 24px;
+    color: #4CAF50;
+    margin-right: 10px;
+  }
+  
+  .contact-item span {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-item {
+      margin-bottom: 20px;
+    }
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer-links ul li a:hover {
+    color: #4CAF50;
+}
+
+.footer-contact p {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+.footer-contact p {
+margin-bottom: 8px;
+}
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    background-color: #45a049;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    font-size: 1rem;
+}
+
+  

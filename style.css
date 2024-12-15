@@ -1,0 +1,502 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header {
+    background: black;
+    border: 2px solid red;
+    font-family: "Lato", sans-serif;
+
+
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and navigation container */
+header {
+    background-color: #0d0d0d; /* Dark background */
+    color: white;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Navigation links */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #ff9900; /* Orange hover effect */
+}
+
+/* Deliver To and location section */
+.nav-address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.add-icon i {
+    font-size: 18px;
+    color: #ff9900;
+}
+
+.add-icon p {
+    color: #ff9900;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.search input {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.second-icon i {
+    color: white;
+}
+
+.search button {
+    background-color: #ff9900;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #e68a00; /* Darker orange on hover */
+}
+
+/* Cart and Returns/Orders section */
+.cart, .third {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.cart p, .third p {
+    margin: 0;
+}
+
+.cart .icon {
+    display: flex;
+    align-items: center;
+}
+
+.cart .tenth i {
+    color: #ff9900;
+    font-size: 20px;
+}
+
+.cart:hover, .third:hover {
+    cursor: pointer;
+    color: #ff9900;
+}
+
+.third .fourth p {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-address {
+        margin-top: 10px;
+    }
+}
+
+
+.nav-adress {
+    color: rgb(224, 47, 168);
+    padding: 20px 10px;
+}
+
+.nav-adress:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo img:hover {
+    width: 20vh;
+    padding: 10px 25px;
+    color: rgb(224, 86, 22);
+    font-weight: bolder;
+    border: 1.5px solid white;
+}
+
+nav ul {
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li { */
+    /* list-style: none;
+    padding: 0 30px;
+    color: brown;
+}
+
+nav ul li a {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+/* nav{
+    display: flex;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+/* header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.cart {
+    color: rgb(245, 127, 37);
+    padding: 20px 10px;
+}
+tenth {
+    width: 50px;
+}
+
+.icon p {
+    color: burlywood;
+}
+
+.third {
+    color: rgb(241, 72, 15);
+    padding: 20px 10px; */
+}
+
+/* .third:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.panel {
+    color: rgb(241, 72, 15);
+    padding: 20px 10px;
+
+
+}
+.cart:hover {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder; */ */
+
+
+/* } */
+/* Hero Section */
+.hero {
+    height: 50px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+    background-image: url("https://www.phoolwala.com/bannerimages/corporate-flowers-banner-415054.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero .btn:hover {
+    background-color: #45a049;
+}
+
+/* Featured Flowers Section */
+.featured-flowers {
+    padding: 40px;
+    text-align: center;
+}
+
+.featured-flowers h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: silver;
+}
+
+.flower-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: silver;
+}
+
+.flower {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.flower:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.flower img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.flower h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.flower p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.flower .btn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.flower .btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.footer-logo {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-links h3,
+.footer-contact h3,
+.footer-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.footer-links ul li a:hover {
+    color: #4CAF50;
+}
+
+.footer-contact p {
+    margin-bottom: 8px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon:hover {
+    background-color: #45a049;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    font-size: 1rem;
+}
+
